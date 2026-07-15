@@ -8,8 +8,6 @@ It allows users to:
 - **Delete all items**  
 - **Modify existing items**  
 
-The goal is to provide a minimal, functional example of a CRUD-style interface using PHP and a local server environment.
-
 ---
 
 ## Features
@@ -26,7 +24,7 @@ The goal is to provide a minimal, functional example of a CRUD-style interface u
 To run this project, you must host it on a server capable of executing PHP.  
 You can use any server environment, but the simplest option is:
 
-- **XAMPP (Apache + PHP)**  
+- **XAMPP (Apache)**  
   Personally, I run the project on my local machine using **XAMPP Apache**.
 
 ---
