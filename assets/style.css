@@ -1,0 +1,198 @@
+/* header */
+.boxHead{
+    text-align: center;
+    padding-top: 2%;
+    background-color: #2a9d8f;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+/*body*/
+body{
+   background-color:#E3F2ED ;
+    
+}
+.boxHead2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    size:20px;
+}
+.secondLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 16px;
+}
+/*input */
+
+input {
+    width: 70%;
+    padding: 10px 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #2a9d8f;
+    border: 2px;
+    box-shadow: 0 0 4px rgba(42,157,143,0.4);
+    outline: none;
+}
+
+.warnLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: black;
+    padding-left:35%;
+    padding-right: 35%;
+}
+.warnLabelSecond{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    padding-left:35%;
+    padding-right: 35%;
+    
+}
+
+/*bottoni*/
+.greenBtn{ 
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    background-color: rgb(35, 164, 35);
+    border: solid;
+    border-color: white;
+    color:white;
+    border-radius: 8px;
+    transition: border-color 0.2s
+}
+.blueBtn{ 
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    background-color: rgb(22, 157, 190);
+    border-color: white;
+    border: solid;
+    color:white;
+    border-radius: 8px;
+    transition: border-color 0.2s
+}
+.redBtn{
+    height: 35px;
+    width: 90px;
+    font-size: 16px;
+    background-color: rgb(254, 44, 44);
+    border-color:white;
+    border: solid;
+    color:white;
+    border-radius: 8px;
+    transition: border-color 0.2s
+}
+button:hover{
+    border-color: #2a9d8f;
+    transform: scale(1.05);
+}
+/*tabella */
+
+table {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-collapse: separate;   /* permette i bordi tondi */
+    border-spacing: 0;
+    border-radius: 12px;         /* bordi arrotondati */
+    overflow: hidden;            /* evita che le celle escano fuori */
+    border: 2px solid black;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* ombra moderna */
+}
+
+td {
+    width: 25%;
+    border: 1px solid #444;  
+    padding: 10px;           /* più spazio interno */
+}
+
+.trDefault{
+    background-color: #B2DFDB;
+
+}
+td{
+    width:25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.riga-assente{
+    background-color: rgb(254, 191, 183);
+}
+.riga-presente{
+    background-color: rgb(178, 228, 172);
+}
+
+/*inserimento*/
+.labelIns{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.divMainIns{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10%;
+    margin-bottom: 40%;
+    height: 35%;
+    margin-left: 25%;
+    margin-right: 25;
+    width:50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    align-items: center;
+}
+/*modale*/
+.modaleSfondo{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: none; /* nascosta di default */
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.mainBoxModale{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    min-width: 250px;
+}
+.divBtnModale{
+    margin-top: 2%;
+}
+
+#ricerca{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+
